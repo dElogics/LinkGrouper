@@ -1,4 +1,4 @@
-Given a list of links, this module will group similar links and write them to a file. 
+Given a list of links, this module will group similar links (or find unique links) and write them to separate files. 
 
 e.g. URL list -- 
 /level1/uid8
