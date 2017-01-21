@@ -1,0 +1,30 @@
+Given a list of links, this module will group similar links and write them to a file. 
+
+e.g. URL list -- 
+/level1/uid8
+/level1/level2/gid6
+/status
+/level1/uid10
+/level1/level2/gid0
+/xyz
+/level1
+/level1
+/level1
+/level1/level2
+
+e.g. output (given groupsize of 2)
+Then this will list the following in file 1 (URLs which could not be grouped) -- 
+/status
+/xyz
+This will exist in file 2 -- 
+/level1/uid8
+/level1/uid10
+Contents of file 3 -- 
+/level1/level2/gid0
+/level1/level2/gid6
+Contents of file 4 -- 
+/level1/level2
+conents of file 5 -- 
+/level1
+/level1
+/level1
